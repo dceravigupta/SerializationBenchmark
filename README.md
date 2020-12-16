@@ -29,17 +29,19 @@ Compare serialization to a byte buffer for different packages and options.
 
 Serialized data sizes for the different options:
 
-_msgpack_plain         : 11012 bytes
-_msgpack_comp          : 7382 bytes
-_msgpack_pickled       : 6996 bytes
-_protobufnet_plain     : 11610 bytes
-_protobufnet_pickled   : 7346 bytes
-_protobuf_plain        : 10393 bytes
-_protobuf_pickled      : 7164 bytes
-_systemtextjson_plain  : 21686 bytes
-_systemtextjson_pickled: 8360 bytes
-_newtonsoft_plain      : 21671 bytes
-_newtonsoft_pickled    : 8349 bytes
+|              Method   |         Size |
+|---------------------- |-------------:|
+|_msgpack_plain         |: 11012 bytes |
+|_msgpack_comp          |: 7382 bytes  |
+|_msgpack_pickled       |: 6996 bytes  |
+|_protobufnet_plain     |: 11610 bytes |
+|_protobufnet_pickled   |: 7346 bytes  |
+|_protobuf_plain        |: 10393 bytes |
+|_protobuf_pickled      |: 7164 bytes  |
+|_systemtextjson_plain  |: 21686 bytes |
+|_systemtextjson_pickled|: 8360 bytes  |
+|_newtonsoft_plain      |: 21671 bytes |
+|_newtonsoft_pickled    |: 8349 bytes  |
 
 The *Plain varients use the respective technology directly in their best light, using reusable buffers
 when possible.
